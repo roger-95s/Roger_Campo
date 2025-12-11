@@ -1,0 +1,23 @@
+.homepage {
+    background: #02060f;
+    min-height: 100vh;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+
+.hero {
+    padding: 120px 40px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    color: #00ffaa;
+    text-shadow: 0 0 12px rgba(0, 255, 170, 0.7);
+}
+
+.hero-subtitle {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #cccccc;
+}
