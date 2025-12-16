@@ -16,7 +16,7 @@ function About() {
                         <div className="">
                             <h2 className=" site-title">Roger Campo Cordova</h2>
                             <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">
-                                Software & AI/Cloud Engineer · Co-Founder
+                                Cloud & software Engineer · Founder
                             </p>
                             <p className="text-md mb-4 leading-relaxed">
                                 I have built a distinctive and purpose-driven career path—from working as a professional chef to founding a nonprofit in STEM education, and now transitioning fully into technology and cybersecurity.
@@ -53,6 +53,14 @@ function About() {
                                 className=""
                             >
                                 LinkedIn Profile →
+                            </a>
+                            <a
+                                href="https://docs.google.com/document/d/1pJzOf-qDFYCmWeEN_inrjfR3DIgbydga9hP4VfCSqxY/edit?usp=sharing"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className=""
+                            >
+                                Roger Campo Resume →
                             </a>
                             <a
                                 href="https://github.com/roger-95s"

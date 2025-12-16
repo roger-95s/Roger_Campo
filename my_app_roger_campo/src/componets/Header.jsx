@@ -14,9 +14,9 @@ function Header() {
             </a>
             <nav>
                 <ul className="nav-list">
-                    <li><a className="nav-link" href="/about">About Me</a></li>
                     <li><a className="nav-link" href="/projects">Projects</a></li>
-                    <li><a className="nav-link" href="/contact">Contact</a></li>
+                    <li><a className="nav-link" href="/about">About Me</a></li>
+                    {/* <li><a className="nav-link" href="/contact">Contact</a></li> */}
                 </ul>
             </nav>
         </header>
