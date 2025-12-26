@@ -1,27 +1,34 @@
-import Header from "../componets/Header"
+import CurrentWorks from "./CurrentWorks";
+import Footer from "../components/Footer";
 
 function HomePage() {
     return (
-        <div className="homepage">
-            <Header />
-
+        <>
+            {/* HERO */}
             <section className="hero">
-                <h1 className="hero-title">
-                    Welcome to My Website Portfolio
-                </h1>
+                <div className="container">
+                    <h1>
+                        Welcome to My |
+                        <span style={{ color: "var(--accent)" }}>
+                            {" "} Professional Portfolio
+                        </span>
+                    </h1>
 
-                <p className="hero-subtitle">
-                    AWS Cloud Engineer | Junior Full Stack Developer | Aspiring Cloud AI Security Engineer | Nonprofit Founder & Director
-                </p>
-
+                    <p>
+                        AWS Cloud Engineer | Junior Full Stack Developer |
+                        Aspiring Cloud, AI & Security Engineer |
+                        Nonprofit Founder & Director
+                    </p>
+                </div>
             </section>
-            <div class="container hero">
-                <footer class="py-3 my-4">
-                    <p>If you want to know more about me check out <a href="/about">About me</a> page, or if you want to know about my work go to <a href="/Projects">Projects</a>  </p>
-                    <p class="text-center text-body-secondary">© 2025 Roger Campo Porfilio Website</p>
-                </footer>
-            </div>
-        </div>
+
+            {/* PROJECTS */}
+            <section className="container">
+                <CurrentWorks />
+            </section>
+
+            <Footer />
+        </>
     );
 }
 
