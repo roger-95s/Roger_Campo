@@ -1,7 +1,5 @@
 :root {
     /* --- Color Palette (Inspired by mxb.dev + Your Cyan Accent) --- */
-    --bg-body-img: url('./assets/backgroud.png');
-    --bg-body: #000000;
     /* Deep matte black */
     --bg-card: #1a1a1a;
     /* Slightly lighter for elements */
@@ -43,6 +41,34 @@ body {
     background-size: cover;
 }
 
+.pagenotfound {
+    margin: auto;
+    width: 500px;
+    right: 0;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+
+
+}
+
+/* .div-img {
+    width: 520px;
+    height: 780px;
+    border: 15px solid rgba(0, 0, 0, 0.5);
+    margin: auto;
+
+} */
+
+.resize {
+    width: 6rem;
+}
+
+/* .mycontainer-di {
+    width: 33%;
+    float: left;
+} */
+
 .glass-container {
     height: px;
     width: px;
@@ -65,9 +91,9 @@ body {
 
 
 /* 2. Layout Wrapper (Centers everything) */
-.container {
+/* .container {
     padding: 0 100px;
-}
+} */
 
 .wrapper {
     display: flex;
@@ -113,77 +139,6 @@ p {
 }
 
 /* 4. Links (Global) */
-a {
-    color: rgba(0, 0, 255, 10.5rem);
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-a:hover {
-    color: hotpink;
-}
-
-/* 5. Project List Styling (The "mxb.dev" Clean Look) */
-/* We override Bootstrap classes here to make them custom */
-
-.list-group {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    /* Space between items */
-}
-
-.list-group-item {
-    display: block;
-    background: var(--bg-card);
-    border: 1px solid transparent;
-    border-radius: var(--radius);
-    padding: 1.5rem;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Hover Effect: Slight lift + Border Glow */
-.list-group-item:hover {
-    transform: translateY(-2px);
-    background: #222;
-    border-color: var(--accent);
-    box-shadow: 0 4px 20px var(--accent-glow);
-}
-
-/* Title in the card */
-.list-group-item h5 {
-    color: #fff;
-    font-size: 1.2rem;
-    margin: 0 0 0.5rem 0;
-    font-weight: 700;
-}
-
-.list-group-item:hover h5 {
-    color: var(--accent);
-    /* Turn title cyan on hover */
-}
-
-/* Description text in card */
-.list-group-item p {
-    color: var(--text-muted);
-    font-size: 0.95rem;
-    margin: 0;
-    line-height: 1.5;
-}
-
-/* Date / Meta info */
-.list-group-item small {
-    display: block;
-    margin-top: 1rem;
-    font-size: 0.8rem;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-}
 
 /* 6. Footer */
 footer {

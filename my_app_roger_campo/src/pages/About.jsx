@@ -1,14 +1,14 @@
 import React from 'react';
 import NavBar from "../components/NavBar";
-import Resume from "./Resume";
+import Resume from "../components/Resume";
 
 function About() {
 
     return (
         <>
-            <div className="wrapper">
+            <div className="container-fluid">
                 <NavBar />
-                <div className="container-fluid glass-container">
+                <div className="glass-container">
                     <div>
                         {/* Roger */}
                         <div>
@@ -24,11 +24,51 @@ function About() {
                                 I am a grauadte of the Per Scholas AWS re/Start program certified AWS Cloud Practitioner, HarvardX CS50W's Web Programming with Python and JavaScript, HarvardX CS50's Introduction to Computer Science.
                                 Through rigorous training and hands-on projects, I have developed a strong foundation in cloud computing, networking, Linux, programming, and Web developed.
                             </p>
-                            <p className='p-about'>
-                                Core Skills
-                                • Technical: Cloud (AWS), Networking, Linux, Python, JavaScript, C, Web Programming, IT Support, Cybersecurity Fundamentals
-                                • Professional: Adaptability, Problem-Solving, Team Collaboration, Leadership, Continuous Learning
-                            </p>
+                            <div>
+                                <h2><b>Core Skills</b></h2>
+                            </div>
+                            <div className="container">
+                                <div className="row">
+                                    {/* Technical Skills */}
+                                    <div className="col-sm">
+                                        <h3><b>Technical</b></h3>
+                                        <ul className="">
+                                            <li>Cloud (AWS)</li>
+                                            <li>Networking</li>
+                                            <li>Linux</li>
+                                            <li>Python</li>
+                                            <li>JavaScript</li>
+                                            <li>C</li>
+                                            <li>Web Programming</li>
+                                            <li>IT Support</li>
+                                            <li>Cybersecurity Fundamentals</li>
+                                        </ul>
+                                    </div>
+
+                                    {/* Soft Skills */}
+                                    <div className="col-sm">
+                                        <h3><b>Soft</b></h3>
+                                        <ul className="">
+                                            <li>Adaptability</li>
+                                            <li>Problem-Solving</li>
+                                            <li>Team Collaboration</li>
+                                            <li>Leadership</li>
+                                            <li>Continuous Learning</li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-sm">
+                                        <h3><b>Certifications:</b></h3>
+                                        <ul className="">
+                                            <li>PerScholas AWS re/Start</li>
+                                            <li>Certified Cloud Practitioner</li>
+                                            <li>HarvardX’s CS50: Introductionto Computer Science</li>
+                                            <li>CS50W: Web Programming with Python and JavaScript</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <br />
                             <p className='p-about'>
                                 I am currently advancing my skills by studying for the AWS AI Practitioner certification while deepening my knowledge of algorithms, data structures and expanding into Java programming, with a continued focus on cybersecurity principles and best practices.
                                 My short-term goal, it is to push my career in cybersecurity, IT, cloud, AI, or software and web development roles—such as Cloud Support Associate or Junior Cloud Engineer—where I can apply my training and continue gaining hands-on experience.

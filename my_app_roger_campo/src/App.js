@@ -3,8 +3,8 @@ import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import CurrentWorks from "./pages/CurrentWorks";
-
+import CurrentWorks from "./components/CurrentWorks";
+import NotFound from "./components/Page_Not_Found";
 
 
 function App() {
@@ -24,9 +24,10 @@ function App() {
           <Route path="/Projects" element={<Projects />} />
           <Route path="/CurrentWorks" element={<CurrentWorks />} />
 
+          {/* <h2 className="text-center mt-10" style={{ color: 'white' }}>404 - Not Found</h2> */}
           <Route
             path="*"
-            element={<h2 className="text-center mt-10" style={{ color: 'white' }}>404 - Not Found</h2>}
+            element={< NotFound />}
           />
         </Routes>
       </div>

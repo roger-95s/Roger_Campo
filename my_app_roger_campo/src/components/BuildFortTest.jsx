@@ -1,5 +1,7 @@
 import CCP_Exam_Pre from "../assets/CCP_Exam_Pre.jpg";
 import CyberMagImg from "../assets/cybermag.jpg"; // add an image for CyberMag
+import Carousel from 'react-bootstrap/Carousel';
+
 
 const projectCards = [
     {
@@ -18,6 +20,7 @@ const projectCards = [
         link: "https://roger-95s.github.io/CCP_EXAM_PRE-/",
         sub: "AWS Certification Prep",
         image: CCP_Exam_Pre,
+        interval: 8000,
     },
     {
         title: "CyberMag",
@@ -39,34 +42,37 @@ const projectCards = [
         link: "https://github.com/roger-95s/CyberMag",
         sub: "Cybersecurity Platform",
         image: CyberMagImg,
+        interval: 12000,
     },
 ];
 
 function CurrentWorks() {
     return (
-        <div className="row g-4">
-            {
-                projectCards.map((project, index) => (
-                    <div className='car-grid' key={index}>
-                        <div className="card-container">
-                            <a
-                                href={project.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <img
-                                    src={project.image}
-                                    alt={project.title}
-                                />
-
-                                <h2>{project.title}</h2>
-                            </a>
-                            <p>{project.desc}</p>
-                        </div>
-                    </div>
-                ))
-            }
-        </div >
+        <Carousel fade pause="hover">
+            {projectCards.map((project) => (
+                <Carousel.Item
+                    key={project.title}
+                    interval={project.interval}
+                >
+                    <img
+                        className=""
+                        src={project.image}
+                        alt={project.title}
+                    />
+                    <Carousel.Caption className="">
+                        <h2>{project.title}</h2>
+                        <p>{project.desc}</p>
+                        <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-primary"
+                        >
+                        </a>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            ))}
+        </Carousel>
     );
 }
 
