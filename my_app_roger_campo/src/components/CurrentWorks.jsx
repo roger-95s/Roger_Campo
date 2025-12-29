@@ -50,7 +50,7 @@ function CurrentWorks() {
                         src={project.image}
                         alt={project.title}
                         style={{
-                            maxHeight: '5000px',
+                            maxHeight: '1000px',
                             objectFit: 'cover'
                         }}
                     />
@@ -63,9 +63,9 @@ function CurrentWorks() {
                             rel="noopener noreferrer"
                             className="btn btn-outline-secondary"
                         >
+                            Click Me!
                             <h2 className="display-1"><b>{project.title}</b></h2>
                             <p className="h3 "><b>{project.desc}</b></p>
-                            View Project
                         </a>
                     </Carousel.Caption>
                 </Carousel.Item>

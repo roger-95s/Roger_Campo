@@ -139,6 +139,9 @@ p {
 }
 
 /* 4. Links (Global) */
+a-hover {
+    color: hotpink;
+}
 
 /* 6. Footer */
 footer {

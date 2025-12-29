@@ -93,7 +93,6 @@ function Projects() {
     return (
         <section className="hero">
             <div className="container">
-
                 {ProjectList.map((project, index) => (
                     <a
                         key={index}
@@ -108,12 +107,8 @@ function Projects() {
                             <p>{project.desc}</p>
                             <small>{project.sub}</small>
                         </div>
-
                     </a>
-
                 ))}
-
-
             </div>
         </section>
     );

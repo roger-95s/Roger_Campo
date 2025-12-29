@@ -1,6 +1,7 @@
 import CurrentWorks from "../components/CurrentWorks";
 import Footer from "../components/Footer";
 import About from '../pages/About'
+import Projects from "../pages/Projects";
 
 
 function HomePage() {
@@ -10,11 +11,14 @@ function HomePage() {
                 {/* HERO */}
                 <section className="hero">
                     <div className="container">
-                        <h1>
-                            Welcome to My |
-                            <span style={{ color: "var(--accent)" }}>
-                                {" "} Professional Portfolio
-                            </span>
+                        <h1 className="display-1">
+                            <b>
+                                Welcome to My
+
+                                <span style={{ color: "var(--accent)" }}>
+                                    {" "} Professional Portfolio
+                                </span>
+                            </b>
                         </h1>
 
                         <p>
@@ -24,26 +28,19 @@ function HomePage() {
                         </p>
                     </div>
                 </section>
+                <br />
                 {/* PROJECTS */}
-                <h2 className="display-1 text-dark mt-0"><b>Work in progress</b></h2>
                 <section className="">
-
-                    <div className="">
+                    <div className="container-fluid">
                         <CurrentWorks />
                     </div>
-
-
-
-
-
-
                 </section>
                 <br />
                 <About />
-
-
-
-
+                <br />
+                <div className="">
+                    <Projects />
+                </div>
                 <Footer />
             </div>
         </>

@@ -3,11 +3,11 @@ function Footer() {
         <footer className="footer">
             <section>
                 <p>
-                    Want to know more? Check out{" "}
-                    <a href="/about">About Me</a> or see my{" "}
-                    <a href="/projects">Projects</a>.
+                    <b>Want to know more? Check out{" "}</b>
+                    <a href="/about"><b>About Me</b></a> <b>or see my{" "}</b>
+                    <a href="/projects">,<b>Projects</b></a>.
                 </p>
-                <p>© 2025 Roger Campo Portfolio</p>
+                <p><b>© 2025 Roger Campo Portfolio</b></p>
             </section>
         </footer>
     );
