@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e0f902b.css",
-    "main.js": "/static/js/main.47f05306.js",
-    "static/js/453.dbfef69d.chunk.js": "/static/js/453.dbfef69d.chunk.js",
-    "static/media/Page_Not_Found.png": "/static/media/Page_Not_Found.b2655973c32978b09625.png",
-    "static/media/cybermag.jpg": "/static/media/cybermag.476411fb5e4faa2dc841.jpg",
-    "static/media/backgroud.png": "/static/media/backgroud.9c00bcda7a95b32f0cc3.png",
-    "static/media/profilePic.png": "/static/media/profilePic.99072bf8b7e069fa10c8.png",
-    "static/media/CCP_Exam_Pre.jpg": "/static/media/CCP_Exam_Pre.7ab2c7ffcc112aee7ec4.jpg",
-    "index.html": "/index.html",
-    "main.6e0f902b.css.map": "/static/css/main.6e0f902b.css.map",
-    "main.47f05306.js.map": "/static/js/main.47f05306.js.map",
-    "453.dbfef69d.chunk.js.map": "/static/js/453.dbfef69d.chunk.js.map"
+    "main.css": "/Roger_Campo/static/css/main.9806f794.css",
+    "main.js": "/Roger_Campo/static/js/main.88087eaa.js",
+    "static/js/453.dbfef69d.chunk.js": "/Roger_Campo/static/js/453.dbfef69d.chunk.js",
+    "static/media/Page_Not_Found.png": "/Roger_Campo/static/media/Page_Not_Found.b2655973c32978b09625.png",
+    "static/media/cybermag.jpg": "/Roger_Campo/static/media/cybermag.476411fb5e4faa2dc841.jpg",
+    "static/media/backgroud.png": "/Roger_Campo/static/media/backgroud.9c00bcda7a95b32f0cc3.png",
+    "static/media/profilePic.png": "/Roger_Campo/static/media/profilePic.99072bf8b7e069fa10c8.png",
+    "static/media/CCP_Exam_Pre.jpg": "/Roger_Campo/static/media/CCP_Exam_Pre.7ab2c7ffcc112aee7ec4.jpg",
+    "index.html": "/Roger_Campo/index.html",
+    "main.9806f794.css.map": "/Roger_Campo/static/css/main.9806f794.css.map",
+    "main.88087eaa.js.map": "/Roger_Campo/static/js/main.88087eaa.js.map",
+    "453.dbfef69d.chunk.js.map": "/Roger_Campo/static/js/453.dbfef69d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e0f902b.css",
-    "static/js/main.47f05306.js"
+    "static/css/main.9806f794.css",
+    "static/js/main.88087eaa.js"
   ]
 }
